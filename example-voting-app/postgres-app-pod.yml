@@ -9,7 +9,7 @@ spec:
    containers: 
    - name: postgres 
      image:  postgres:9.4
-   env:
+   environment:
     - name: POSTGRES_USER
       value: "postgres"
     - name:  POSTGRES_PASSWORD
